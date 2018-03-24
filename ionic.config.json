@@ -1,0 +1,9 @@
+{
+  "name": "ionic4-starter-blank",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "hooks": {}
+}
