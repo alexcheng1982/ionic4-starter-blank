@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-import { IonicAngularModule } from '@ionic/angular';
+import { IonicModule } from '@ionic/angular';
 
 import { MyApp } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -15,7 +15,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     AppRoutingModule,
     BrowserModule,
-    IonicAngularModule.forRoot(),
+    IonicModule.forRoot(),
   ],
   bootstrap: [MyApp],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
